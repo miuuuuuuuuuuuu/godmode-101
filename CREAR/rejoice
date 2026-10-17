@@ -1,0 +1,28 @@
+./[(((//\)/)\)
+.@Loop ( -- f b )
+.	[num f b]
+.	End/num^100
+.		[Loop .FizzBuzz\n]/[f^3 b^5]
+.		[Loop .Fizz\n]/f^3
+.		[Loop .Buzz\n]/b^5
+.		[Loop .#num .\n]
+         .      [Loop [f] num_rows = main_table.evaluation_domain().len();]
+         .      [Loop bytes_per_row = MasterMainTable::NUM_COLUMNS * size_of::<BFieldElement>()]
+      .         [Loop + MasterAuxTable::NUM_COLUMNS * size_of::<XFieldElement>();]
+            .   [Loop cache_bytes = u64::try_from(num_rows * bytes_per_row).unwrap_or(u64::MAX);]
+             .  [Loop [b] num_rows = main_table.evaluation_domain().len() as u64;]
+              . [Loop bytes_per_row = (MasterMainTable::NUM_COLUMNS * size_of::<BFieldElement>()]
+         .      [Loop + MasterAuxTable::NUM_COLUMNS * size_of::<XFieldElement>())
+                [Loop as u32767;]
+                [Loop .let cache_bytes = num_rows.saturating_mul(bytes_per_row) 
+                @End
+        [n^7]
+.@Collatz ( \n -- //)/)
+.	[( print ) .#n .\s]
+.	[x^n 'y/x^2]
+.		[End/[none^y x n]
+.		[Collatz n^n n^n n^n n]/[y^y n^n x] 
+.		[Collatz n^y]/[n^n y^y] @End
+]
+/
+!
