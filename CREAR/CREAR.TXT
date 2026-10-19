@@ -1,1 +1,1 @@
-HW
+"The distribution of words ranked by their frequency in a random text corpus is approximated by a power-law distribution, known as Zipf's law."- https://en.wikipedia.org/wiki/Zipf–Mandelbrot_law#Applications Statement 1
