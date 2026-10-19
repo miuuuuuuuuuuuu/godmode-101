@@ -1,1 +1,39 @@
-HW
+____________________________Signum:
+ABCDEFGHIJKLMNOPQRSTUVWXYZ- |-1    if x < 0
+ABCDEFGHIJKLMNOPQRSTUVWXYZ0 }+0    if x = 0 }+i    if x = -0
+ETIANMSURWDKGOHVFLPJBXCYZQ+ |+1    if x > 0
+1.    2.    3.
+SATOR DAFNE AEMON|Vowels: AEO 
+AREPO ABRDN ETLAO|Euler Characteristics: A <= 2, E = 1, O = +0; A = x, E = y, O= z
+TENET FR0RF ML0LM|Consonants: BDFNPRST  |
+OPERA NDRBA OATLE|           __________ } Irrational Number = e
+ROTAS ENFAD NOMEA|               LM     |
+Vertex Edges Faces
+x = V - E + F
+AEO, BDFNPRST
+lambda of the Vertex
+Lattice
+M = ⎡  0   4   8   3   7  ⎤
+    ⎢  4   8   3   4   5  ⎥
+    ⎢  8   3   7   5   3  ⎥
+    ⎢  3   4   5   3   1  ⎥
+    ⎣  7   5   3   1   0  ⎦
+Dual Basis = inversion mod 3(Gram Matrix, denominator)
+Gram Matrix        = [[0,4,7],[4,8,5],[7,5,0]]
+Determinate        = -112
+Sign (Lorenztian)  = (2,1)
+Dafne/Nomea
+A                                           ->                                         0
+⣛⠞⣛⠞⣝⠠⣢⠥⣢⠥⣝⠠⣛⠞⣗⠚⣒⠕⣒⠕⣗⠚⣛⠞⣛⠞⠞⣗⣗⠚⠚⠚⣛⠞⣛⠞⣝⠠⣢⠥⣢⠥⣝⠠⣛⠞⣗⠚⣒⠕⣒⠕⣗⠚⣛⠞⣗⠚⠚⣒⣒⠕⠕⠕
+0/M
+⣛⠞->⠕⠕⠕
+"Ode to Joy!"
+Low-level abstraction:
+Memory (3000 bits)
+⠪⢈ |⢈·⡁ ⡁|⢈·⡁ ⡁
+⠪⢈ |⢈·⡁ ⡁|⢈·⡁ ⡁
+⠪⢈ |⢈·⡁ ⡁|⢈·⡁ ⡁
+⠪⢈ |⢈·⡁ ⡁|⢈·⡁ ⡁
+⠪⢈ |⢈·⡁ ⡁|⢈·⡁ ⡁
+⠪⢈ |⢈·⡁ ⡁|⢈·⡁ ⡁
+
